@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Physicon test task</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id="wrapper" class="">
+  <header id="header" class="dark-gray">
+    <section class="header__wrapper">
+      <div class="header__logo">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="Company logo" width="119" height="65"/>
+        </a>
+      </div>
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link" title="Вход в личный кабинет">Вход</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link" title="О проекте">О проекте</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link" title="Обучение">Обучение</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link" title="Новости">Новости</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link" title="Контакты">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <main id="main">
+    <section class="main__filters">
+      <div class="filter__holder">
+        <label for="filter__subject"></label>
+        <select class="filter filter__subject" id="filter__subject" name="filter__subject">
+          <option>Все предметы</option>
+          <option>Алгебра</option>
+          <option>Английский язык</option>
+          <option>Биология</option>
+          <option>География</option>
+          <option>Геометрия</option>
+          <option>Демо-версия</option>
+          <option>Естествознание</option>
+          <option>Информатика</option>
+          <option>История</option>
+          <option>Математика</option>
+          <option>Обществознание</option>
+          <option>Окружающий мир</option>
+          <option>Рабочая тетрадь</option>
+          <option>Русский язык</option>
+          <option>Физика</option>
+          <option>Химия</option>
+        </select>
+      </div>
+      <div class="filter__holder">
+        <label for="filter__genre"></label>
+        <select name="filter__genre" id="filter__genre" class="filter filter__genre">
+          <option value="">Все жанры</option>
+          <option value="">Виртуальный практикум</option>
+          <option value="">Задачник</option>
+          <option value="">Медиа-коллекция</option>
+          <option value="">Рабочая тетрадь</option>
+          <option value="">Тренажер ЕГЭ 2015</option>
+          <option value="">Тренажер ЕГЭ 2016</option>
+        </select>
+      </div>
+      <div class="filter__holder">
+        <label for="filter__class"></label>
+        <select name="filter__class" id="filter__class" class="filter filter__class">
+          <option value="">Все классы</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+        </select>
+      </div>
+      <div class="filter__holder filter__holder--search">
+       <label for="filter__search"></label>
+       <input type="text" class="filter__search" id="filter__search" name="filter__search" placeholder="Поиск"/>
+      </div>
+      <div class="filter__holder">
+        <a href="#" class="btn--search">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+    <section class="main__showcase"></section>
+  </main>
+  <footer id="footer">
+    <section class="footer__wrapper">
+      <div class="footer__info--left contacts">
+        <p class="contacts__copyright">&copy; ООО «Физикон Лаб», 2013—2016</p>
+        <a href="https://облако-знаний.рф/privacy" title="Rules of information security" class="contacts__link">Правила защиты информации о пользователях сайта «Облако знаний»</a>
+      </div>
+      <div class="footer__info--right contacts">
+        <p class="contacts__phone">+7 (498) 744-67-57, <a href="mailto:info@imumk.ru" class="contacts__link" title="Mail to administration">info@imumk.ru</a></p>
+        <a href="https://облако-знаний.рф/regulations" class="contacts__link" title="Terms of use">Правила пользования сайтом «Облако знаний»</a>
+      </div>
+    </section>
+  </footer>
+</div>
+<script src="js/vendors/jquery-2.1.4.js"></script>
+<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="js/vendors/underscore.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<% _.each(items, function(item){%>
+<div class="showcase__item item">
+    <figure class="item__figure">
+        <img src="https://облако-знаний.рф/covers/<%= item.courseId %>.png" alt="Item preview" class="item__image"/>
+    </figure>
+    <h3 class="item__title"><%= item.subject %>, <span>8-11</span></h3>
+    <h4 class="item__subtitle"><%= item.genre %></h4>
+    <p class="item__description"><%= item.title %></p>
+        <span class="item__price">
+          <span class="price-rub"><%= item.price %> RUB</span>
+          <span class="price-bonus hidden"><%= item.priceBonus %> BONUSES</span>
+        </span>
+    <a href="#" class="item__link">Перейти к обучению</a>
+</div>
+<% }); %>
